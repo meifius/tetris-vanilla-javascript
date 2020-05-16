@@ -1,0 +1,24 @@
+* {
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+
+.grid {
+    background-color: chartreuse;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 400px;
+}
+
+/*  or you can select by ".grid div" */
+.cell {
+    background-color: crimson;
+    height: 20px;
+    width: 20px;
+    border: 1px black solid
+}
+
+.tetromino {
+    background-color: cadetblue ;
+}
